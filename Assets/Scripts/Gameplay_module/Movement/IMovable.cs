@@ -6,4 +6,5 @@ public interface IMovable
     void Move(Vector2 position);
     void SetSpeed(float speed);
     bool IsMoving();
+    float GetCoveredWay();
 }

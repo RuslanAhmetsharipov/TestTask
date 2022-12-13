@@ -49,18 +49,18 @@ internal class CircleObstacle : BaseObstacle, IMovable, IUpdatable
         _isControllReceived = false;
     }
 
-    private float GetCoveredWay()
+    public float GetCoveredWay()
     {
         return Vector2.Distance(AssociatedObject.transform.position, _lastIntersectPosition);
     }
 
     private void CheckInterception()
     {
-        foreach (var obstacle in Controller.ActiveObstacles)
+        foreach (var obstacle in Controller.GetObjectsController().ActiveObstacles)
         {
             if (CheckInterceptionWithObject(obstacle))
             {
-                Controller.Intercept(obstacle, GetCoveredWay());
+                Controller.Intercept(obstacle);
                 _lastIntersectPosition = AssociatedObject.transform.position;
                 return;
             }

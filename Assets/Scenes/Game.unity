@@ -428,7 +428,7 @@ Canvas:
   m_OverrideSorting: 1
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
-  m_AdditionalShaderChannelsFlag: 0
+  m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
   m_SortingOrder: 1
   m_TargetDisplay: 0
@@ -703,11 +703,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e481bc17c579f442bb0727681d69497b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mainCamera: {fileID: 81110777}
   settings: {fileID: 11400000, guid: 4ba67881ec98b4281ac4c38563c8a28e, type: 2}
-  obstaclesContainer: {fileID: 706686119}
   squareObstacle: {fileID: 6478423491251565197, guid: a7d848f5acac144dcaab644b5bd269df, type: 3}
   circleObstacle: {fileID: 4157165116051503610, guid: 0b7f027af6cd94c14980c00afce34973, type: 3}
+  obstaclesContainer: {fileID: 706686119}
 --- !u!4 &1845047566
 Transform:
   m_ObjectHideFlags: 0

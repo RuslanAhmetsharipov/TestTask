@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e2973b32d64fd462682baf36f5c4ad2c, type: 3}
   m_Name: LevelSettings
   m_EditorClassIdentifier: 
-  maxCountObstacles: 5
+  maxCountObstacles: 10
   timeBetweenSpawns: 1.5
   timeToDestroyObstacle: 0.5
   playerSpeed: 4
